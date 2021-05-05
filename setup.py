@@ -3,19 +3,19 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["pynput>=1.7.3"]
+requirements = ["mss","pynput"]
 
 setup(
-    name="cookie_clicker-bot",
+    name="piano_tiles-bot",
     version="1",
     author="PBeGood4",
     author_email="pbegood.mail@gmail.com",
-    description="Fastest cookie clicker bot in the west.",
+    description="The fastest piano tiles bot",
     long_description=readme,
     long_description_content_type="text/markdown",
-    keywords="cookie clicker bot python",
-    url="https://github.com/PBeGood4/cookie_clicker-bot/",
-    scripts=["cookiebot.py"],
+    keywords="piano tiles python3 bot mss pynput",
+    url="https://github.com/PBeGood4/piano_tiles-bot/",
+    scripts=["tilesbot.py"],
     packages=[],
     install_requires=requirements,
     classifiers=[
