@@ -19,3 +19,9 @@ $ pip install git+https://github.com/PBeGood4/piano_tiles-bot/
 $ tilesbot.py
 ```
 
+## Dependecies
+
+```
+pynput
+mss
+```
