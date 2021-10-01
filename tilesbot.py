@@ -95,7 +95,7 @@ def listen():
 
 threading.Thread(target=listen).start()
 
-print("\nSelect the boundaries\n\n1. Top Left\n2. Bottom Right\n")
+print("\nPress SPACE to select the boundaries\n\n1. Top Left\n2. Bottom Right\n")
 
 while pos2==(0,0):
     pass
