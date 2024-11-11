@@ -1,5 +1,4 @@
 # piano_tiles-bot
-The fastest piano tiles bot
 
 Program written in Python3
 
